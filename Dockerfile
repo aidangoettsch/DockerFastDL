@@ -12,4 +12,5 @@ COPY package.json /usr/src/app/
 RUN npm install
 
 # Run
+EXPOSE 8080
 CMD [ "npm", "start" ]
